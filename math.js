@@ -13,4 +13,6 @@ var x = 7;
 var y = 100;
 var z = 7 + 100;
 document.getElementById("total").innerHTML = x + y;
+
+alert("You've been hacked!");
 }
