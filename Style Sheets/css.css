@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	background-position: top;
+	background-color: purple;
+	border: 2px solid;
+	border-color: royalblue;
+	text-align: center;
+	color: gold;
+	
+}
+
+#left{
+	float:left;
+	width: 20%;
+	padding-left: 1%;
+	background-color: aquamarine;
+	border-right: 2px solid;
+	border-color: black;
+}
+
+
+#centre{
+	float: left;
+	width: 59%;
+	padding-left: 1%;
+	border-right: 2px solid;
+	border-color: black;
+	text-align: center;
+	background-color:aqua;
+	background-image:url('')
+}
+
+#right{
+	float: left;
+	width: 17%;
+	padding-left: 1%;
+	background-color: blueviolet;
+	background-attachment: fixed;
+	
+}
+
+#play{
+	width: 100%;
+}
+
+table, td{
+	width: 100%;
+	border: solid thick;
+	text-align: center;
+}
