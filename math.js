@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<div id="adding"></div>
-<div id="multiply"></div>
-<p>=</p>
-<div id="total"></div>
-
-
-<script>
+function calculate_elements(){
 var x = 5;
 var y = 2;
 var z = x + y;
@@ -23,7 +13,4 @@ var x = 7;
 var y = 100;
 var z = 7 + 100;
 document.getElementById("total").innerHTML = x + y;
-</script>
-
-</body>
-</html> 
+}
