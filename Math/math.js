@@ -16,3 +16,7 @@ document.getElementById("total").innerHTML = x + y;
 
 alert("You've been hacked!");
 }
+
+function get_date_time() {
+	return new Date().getTime() + '!';
+}
